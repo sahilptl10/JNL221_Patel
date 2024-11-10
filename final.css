@@ -1,0 +1,98 @@
+/*This is the CSS page for our final template.*/
+
+p {
+
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+}
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	background-color: #003884;
+	color: white;
+}
+h4 {
+	font-style: italic;
+	font-size: 40px;
+	font-family: 'Georgia', serif;
+}
+
+img {
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h3 {
+	font-size: 30px;
+}
+
+#button {
+	text-align: center;
+	font-size: 20px;
+	background-color: #003884;
+	color: white;
+	font-weight: bold;
+	padding: 12px;
+	width: 20%;
+	margin-left: 42%;
+}
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+/* Default light mode styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Toggle button styling */
+#darkModeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+{
+ .list {
+ 	float: none;
+ 	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+ iframe {
+ 	min-width: 90%;
+ 	margin-right: 10px;
+ }
+}
